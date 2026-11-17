@@ -1,0 +1,10 @@
+ID             NAME               IMAGE            NODE         DESIRED STATE   CURRENT STATE            ERROR                         PORTS
+xzgbkbqnys8l   bytown_web.1       bytown-web:1.0   its-docker   Running         Running 18 seconds ago                                 
+ccy7jhdid2ga    \_ bytown_web.1   bytown-web:1.0   its-docker   Shutdown        Failed 23 seconds ago    "task: non-zero exit (137)"   
+itgoori1yt1c    \_ bytown_web.1   bytown-web:1.0   its-docker   Shutdown        Shutdown 42 hours ago                                  
+wy4t2uw9raiq   bytown_web.2       bytown-web:1.0   its-docker   Running         Running 42 hours ago                                   
+73u0lqk2kfof    \_ bytown_web.2   bytown-web:1.0   its-docker   Shutdown        Shutdown 42 hours ago                                  
+6jk00q24paq6   bytown_web.3       bytown-web:1.0   its-docker   Running         Running 42 hours ago                                   
+ujnqxqv04g1x    \_ bytown_web.3   bytown-web:1.0   its-docker   Shutdown        Shutdown 42 hours ago                                  
+bhjp6h5d4yrk   bytown_web.4       bytown-web:1.0   its-docker   Running         Running 42 hours ago                                   
+th14rorowiop    \_ bytown_web.4   bytown-web:1.0   its-docker   Shutdown        Shutdown 42 hours ago                                  

@@ -1,0 +1,3 @@
+Q1: In part 1 and part 3 it started a replacement copy because they continue to maintain the desired number of replicas specified in the service.
+Q2: Docker Swarm is a good choice because it is simple to configure and integrates directly with Docker. K3s is a good choice because it provides kubernetes functionality with fewer resource requirements.
+Q3: The page stayed online because kubernetes replaced the old pods with new ones while keeping existing healthy pods available. The service continued directing traffic to available pods during the update.
